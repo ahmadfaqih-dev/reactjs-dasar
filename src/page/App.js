@@ -1,6 +1,9 @@
+import Counter from '../components/Counter';
 import Props from '../components/Props';
+import { PropsStatless } from '../components/PropsStatless';
 import Statefull from '../components/Statefull';
 import Stateless from '../components/Stateless';
+import StateStatefull from '../components/StateStatefull';
 import './App.css';
 
 function App() {
@@ -11,7 +14,12 @@ function App() {
       <Stateless />
       <p>=============================</p>
       <Props nama= "Ahmad Faqih" alamat= "Jakarta Barat" hobi= {<Hobi />}/>
-      <Props nama= "Arin" alamat= "Brebes" hobi= {<Portfolio />}/>
+      <p>=============================</p>
+      <PropsStatless nama= "Arin" alamat= "Brebes" hobi= {<Portfolio />}/>
+      <p>=============================</p>
+      <StateStatefull />
+      <p>=============================</p>
+      <Counter />
       <p>=============================</p>
 
     </div>

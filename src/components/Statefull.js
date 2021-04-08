@@ -5,7 +5,7 @@ class Statefull extends Component {
         return (
             <div>
                 <h1>StateFull Component</h1>
-                <p>StateFull adalah component yang tidak memiliki state</p>
+                <p>StateFull adalah component yang memiliki state</p>
             </div>
         )
     }
