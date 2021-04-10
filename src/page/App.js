@@ -1,4 +1,5 @@
 import Counter from '../components/Counter';
+import FormInput from '../components/FormInput';
 import Props from '../components/Props';
 import { PropsStatless } from '../components/PropsStatless';
 import Statefull from '../components/Statefull';
@@ -20,6 +21,8 @@ function App() {
       <StateStatefull />
       <p>=============================</p>
       <Counter />
+      <p>=============================</p>
+      <FormInput />
       <p>=============================</p>
 
     </div>
